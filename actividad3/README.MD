@@ -10,6 +10,13 @@
 
 2. Debemos crear un archivo *.service en la carpeta `/etc/systemd/system` el cuál mostrará el contenido al ejecutar el script.
 
+Ejecutamos el siguiente comando en la ruta antes mencionada:
+```
+    sudo nano /etc/systemd/system/actividad3.service
+```
+
+Seguidamente, escribimos el siguiente contenido en el archivo:
+
 ```
     [Unit]
     Description=Fecha actual y presentacion
